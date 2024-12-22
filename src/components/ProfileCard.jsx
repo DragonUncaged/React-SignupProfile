@@ -30,7 +30,7 @@ export default function ProfileCard() {
 
         <div>
           <h3 className="text-xl">Password :</h3>
-          <p className="text-lg mt-1">••••••••</p>
+          <p className="text-lg mt-1">{user.password}</p>
         </div>
 
         <button
